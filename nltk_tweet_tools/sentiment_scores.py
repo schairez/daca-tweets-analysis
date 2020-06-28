@@ -16,3 +16,6 @@ def sentiment_analyzer_scores(sentence):
 
     else:
         return "neutral"
+
+# TIME FORMAT
+# 2020-06-19T00:12:45.511Z
