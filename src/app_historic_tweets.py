@@ -40,11 +40,9 @@ def main():
         month_abbr_text = calendar.month_abbr[month_idx]
         tweet_data = get_tweets("DACA", *date_tuple)
         log.info(
-            f"Got list of tweed data for date:{date_tuple[0]} with len: {len(tweet_data)}")
+            f"Got list of tweet data for date:{date_tuple[0]} with len: {len(tweet_data)}")
         tweet_data_clean = prep_tweet_data(tweet_data)
         log.info(f"tweet data objects are preprocessed")
-        # write_JSON_file(
-        #     f'../data/data_json_lines/{date_tuple[0]}.jsonl', tweet_data_clean, json_lines=True)
         write_JSON_file(
             f'../data/data_json_lines/{month_abbr_text}.jsonl', tweet_data_clean, json_lines=True)
         time.sleep(2)
