@@ -11,7 +11,7 @@ log = logging
 
 
 def write_JSON_file(output_file_name_w_path, arr_of_objs, json_lines=False):
-    with open(output_file_name_w_path, mode="ab", encoding='utf8') as out_file:
+    with open(output_file_name_w_path, mode="a", encoding='utf8') as out_file:
         if json_lines:
             for d in arr_of_objs:
                 json.dump(d, out_file, ensure_ascii=False)
