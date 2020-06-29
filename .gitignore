@@ -1,5 +1,5 @@
 #vscode
-.vscode
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -10,7 +10,7 @@ __pycache__/
 *.so
 
 NOTES.txt
-config.py 
+src/config.py 
 # Distribution / packaging
 .Python
 build/
