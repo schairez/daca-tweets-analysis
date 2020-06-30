@@ -2,7 +2,7 @@
 .vscode/
 
 #data output
-data/
+# data/
 
 DACA.txt 
 # Byte-compiled / optimized / DLL files
