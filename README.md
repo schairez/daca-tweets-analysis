@@ -1,4 +1,12 @@
-# twitter-api-stream-data
+# Social Media Analytics for Twitter Sentiment and Entity Recognition
+
+## Description
+
+Mining Twitter data related to DACA. See below for resources related to DACA and the Twitter Streams API. I'm currently using historical twitter data and building my NLP-related functionality.
+
+### What is DACA Resources
+
+https://www.uscis.gov/archive/consideration-deferred-action-childhood-arrivals-daca
 
 ## Resources
 
@@ -10,10 +18,6 @@ https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/
 https://www.dataquest.io/blog/streaming-data-python/
 http://docs.tweepy.org/en/latest/extended_tweets.html
 https://www.natlawreview.com/article/us-supreme-court-rules-deferred-action-childhood-arrivals-program-may-continue
-
-### What is DACA Resources
-
-https://www.uscis.gov/archive/consideration-deferred-action-childhood-arrivals-daca
 
 ## Filter out retweets
 
