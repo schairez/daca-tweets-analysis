@@ -1,7 +1,8 @@
 
 import re
 # from nltk import word_tokenize
-from nltk.tokenize import TweetTokenizer
+from nltk.tokenize.casual import TweetTokenizer
+import string
 
 
 def prep_tweet_for_sent(text: str) -> str:
