@@ -147,6 +147,13 @@ blm_l = []
 san_leandro_l = ["sanleandro"]
 # defund_l = ["#Defund"]
 
+# American Dream & Promise Act (#HR6) add to daca
+
+
+# FIND ALL RELEVANT HASHTAGS !
+daca_l2 = set(["#DACA", "#undocumented", "#HereToStay", "#defenddaca",
+               "#dacamented", "#undocumented", "#dreamact",
+               "EndDacaNow", "#Dreamers", "#DreamAct", "#DACArecipients", "Deferred Action for Childhood Arrivals", "Deferred Action for Illegal Childhood Arrivals"])
 
 # extract: user_name,
 if __name__ == "__main__":
